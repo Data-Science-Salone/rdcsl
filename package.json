@@ -1,0 +1,13 @@
+{
+  "name": "rdcsl",
+  "version": "1.0.0",
+  "description": "Building application require location data to be used as basis for region, district and chiefdom in Sierra Leone.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ishmael Kargbo",
+  "license": "ISC"
+}
