@@ -29,6 +29,20 @@ import rdcsl from "rdcsl";
 rdcsl.chiefdoms // return a list of all the chiefdoms in sierra leone
 ```
 
+### Region Districts
+```javascript
+import rdcsl from "rdcsl";
+
+rdcsl.regionDistricts("Eastern") // return a object contains districts of the region argument passed in sierra leone
+```
+
+### District Chiefdoms
+```javascript
+import rdcsl from "rdcsl";
+
+rdcsl.districtChiefdoms("Bo") // return a object contains chiefdoms of the district argument passed in sierra leone
+```
+
 ### Region Object
 ```javascript
 import rdcsl from "rdcsl";
