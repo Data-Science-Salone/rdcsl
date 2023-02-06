@@ -30,24 +30,26 @@ class RDCSL {
     return chiefdoms.sort();
   }
 
-  public regionDistrict(region: string): Array<string> | null {
+  public regionDistricts(region: string): Array<string> | null {
     const regionObject = this.store.find((reg) => reg.name == region);
     if (!regionObject) return null;
     return regionObject.districts.map((district) => district.name);
   }
 
-  public districtChiefdom(district: string): any {
+  public districtChiefdoms(district: string): any {
     let districtObject: Distict;
     let regionName;
 
     this.store.every((region) => {
-      const check = region.districts.find((d) => d.name === district);
+      const check = region.districts.find((d) => d.name == district);
 
       if (check) {
         districtObject = check;
         regionName = region.name;
         return false;
       }
+
+      return true;
     });
 
     if (!districtObject) return null;
@@ -66,7 +68,7 @@ class RDCSL {
     let regionName;
 
     this.store.every((region) => {
-      const check = region.districts.find((d) => d.name === district);
+      const check = region.districts.find((d) => d.name == district);
 
       if (check) {
         districtObject = check;
