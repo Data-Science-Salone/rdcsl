@@ -1,7 +1,7 @@
 # rdcsl: Region, District and Chiefdom
 
 <!-- badges: start -->
-[![Build Status](https://img.shields.io/travis/nbubna/Case.svg)](https://travis-ci.org/nbubna/Case)
+[![Build Status](https://img.shields.io/travis/npm/v/rdcsl.svg)](https://travis-ci.org/isho/rdcsl)
 [![NPM version](https://img.shields.io/npm/v/rdcsl.svg)][npm]
 <!-- badges: end -->
 
@@ -59,3 +59,9 @@ rdcsl.districtObject("Bo") // return a object contains region and chiefdoms of t
 
 ## Release History
 * 2023-02-05 [v1.0.0][] (public, initial)
+* 2023-02-05 [v1.0.1][] (public, initial)
+* 2023-02-05 [v1.0.2][] (public, initial)
+* 2023-02-06 [v1.0.3][] (public, initial)
+* 2023-02-06 [v1.0.4][] (public, initial)
+* 2023-02-06 [v1.0.5][] (public, initial)
+* 2023-02-06 [v1.0.6][] (public, initial)
