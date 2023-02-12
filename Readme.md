@@ -1,7 +1,6 @@
 # rdcsl: Region, District and Chiefdom
 
 <!-- badges: start -->
-[![Build Status](https://img.shields.io/travis/npm/v/rdcsl.svg)](https://travis-ci.org/isho/rdcsl)
 [![NPM version](https://img.shields.io/npm/v/rdcsl.svg)][npm]
 [![NPM](https://img.shields.io/npm/dm/rdcsl.svg)][npm]
 <!-- badges: end -->
