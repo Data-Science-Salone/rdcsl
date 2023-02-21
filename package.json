@@ -1,6 +1,6 @@
 {
   "name": "rdcsl",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Building applications require location data to be used rdcsl https://lnkd.in/dD5pe2ag for the region, district, and chiefdom in Sierra Leone",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
