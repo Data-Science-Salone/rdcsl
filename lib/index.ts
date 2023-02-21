@@ -32,7 +32,7 @@ class RDCSL {
 
   public regionDistricts(region: string): Array<string> | null {
     const regionObject = this.store.find(
-      (reg) => reg.name.toLocaleLowerCase() == region.toLocaleLowerCase()
+      (reg) => reg.name.toLowerCase() === region.toLowerCase()
     );
     if (!regionObject) return null;
     return regionObject.districts.map((district) => district.name);
@@ -44,7 +44,7 @@ class RDCSL {
 
     this.store.every((region) => {
       const check = region.districts.find(
-        (d) => d.name.toLocaleLowerCase() == district.toLocaleLowerCase()
+        (d) => d.name.toLowerCase() === district.toLowerCase()
       );
 
       if (check) {
@@ -62,7 +62,7 @@ class RDCSL {
   }
 
   public regionObject(region: string): Region | null {
-    const regionObject = this.store.find((reg) => reg.name.toLocaleLowerCase() == region.toLocaleLowerCase());
+    const regionObject = this.store.find((reg) => reg.name.toLowerCase() === region.toLowerCase());
     if (!regionObject) return null;
     return regionObject;
   }
@@ -72,7 +72,7 @@ class RDCSL {
     let regionName;
 
     this.store.every((region) => {
-      const check = region.districts.find((d) => d.name.toLocaleLowerCase() == district.toLocaleLowerCase());
+      const check = region.districts.find((d) => d.name.toLowerCase() === district.toLowerCase());
 
       if (check) {
         districtObject = check;
